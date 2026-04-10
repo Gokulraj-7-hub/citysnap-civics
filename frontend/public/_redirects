@@ -1,0 +1,5 @@
+# Proxy Hugging Face API calls to bypass CORS
+/hf-api/*  https://router.huggingface.co/hf-inference/:splat  200
+
+# SPA fallback - all routes go to index.html
+/*  /index.html  200
